@@ -1,0 +1,250 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1248px){
+    .grid{
+        width: 1000px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 1072px){
+    .grid{
+        width: 800px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 825px){
+    .grid{
+        width: 750px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 50%;
+    }
+
+    .header__main-logo-img{
+        width: 13rem;
+        cursor: pointer;
+    }
+
+    .underHeader1 {
+        margin: 13px;
+        font-size: 1.5rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+    }
+
+    .underHeader_item {
+        margin: -14px 0 0;
+        padding: 0 0 6px 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 780px){
+    .grid{
+        width: 600px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 50%;
+    }
+
+    .container__parentItem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__main-logo-img{
+        width: 13rem;
+        cursor: pointer;
+    }
+
+    .underHeader_item {
+        display: none;
+    }
+
+    .address__main-left2{
+        display: block;
+    }
+
+    .address__main-left {
+        display: none;
+    }
+
+    .header__main-logo {
+        display: none;
+    }
+
+    .address__main-right {
+        display: flex;
+        width: 25%;
+    }
+    .underHeaderItemRS{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .grid{
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 50%;
+    }
+
+    .container__parentItem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__main-logo-img{
+        width: 13rem;
+        cursor: pointer;
+    }
+
+    .underHeader_item {
+        display: none;
+    }
+
+    .address__main-left2{
+        display: block;
+    }
+
+    .address__main-left {
+        display: none;
+    }
+
+    .header__main-logo {
+        display: none;
+    }
+
+    .address__main-right {
+        display: flex;
+        width: 25%;
+    }
+
+    .container__item {
+        width: 25%;
+        padding: 1px 5px;
+        border-radius: 8px;
+        margin-top: 0.5rem;
+    }
+
+    .underHeaderItemRS{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    .grid{
+        width: 390px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container__item{
+        flex-basis: 50%;
+    }
+
+    .container__parentItem{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header__main-logo-img{
+        width: 5rem;
+        cursor: pointer;
+        margin: 1rem;
+    }
+
+    .underHeader_item {
+        display: none;
+    }
+
+    .address__main-left2{
+        display: block;
+    }
+
+    .address__main-left {
+        display: none;
+    }
+
+    .header__main-logo {
+        display: none;
+    }
+
+    .address__main-right {
+        display: flex;
+        width: 35%;
+    }
+
+    /* .header__main-cart {
+        display: none;
+    } */
+
+    .header__main-search {
+        width: 100%;
+    }
+
+    .header__main-search--input {
+        width: 100%;
+    }
+
+    .container__item {
+        width: 25%;
+        padding: 1px 5px;
+        border-radius: 8px;
+        margin-top: 0.5rem;
+    }
+
+    .container__item-main--click-title{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .3rem 0;
+        border-radius: 7px;
+        margin: 2px;
+        cursor: pointer;
+
+    }
+
+    .underHeaderItemRS{
+        display: flex;
+    }
+}
